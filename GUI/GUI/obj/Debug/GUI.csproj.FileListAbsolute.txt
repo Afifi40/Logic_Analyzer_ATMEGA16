@@ -1,0 +1,86 @@
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\GUI\GUI\bin\Debug\GUI.exe.config
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\GUI\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\GUI\GUI\obj\Debug\GUI.D2.resources
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\GUI\GUI\bin\Debug\GUI.exe
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\GUI\GUI\bin\Debug\GUI.pdb
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\GUI\GUI\obj\Debug\GUI.exe
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\3_GUI\GUI\bin\Debug\GUI.exe.config
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\3_GUI\GUI\obj\Debug\GUI.exe
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\3_GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\3_GUI\GUI\bin\Debug\GUI.exe
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\3_GUI\GUI\bin\Debug\GUI.pdb
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\3_GUI\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\3_GUI\GUI\obj\Debug\GUI.D2.resources
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\3_GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 4 _ Wave Generator\3_GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\Nourallah\4th Computer\CI\Lab 4 - D2\3_GUI\GUI\bin\Debug\GUI.exe.config
+D:\Nourallah\4th Computer\CI\Lab 4 - D2\3_GUI\GUI\bin\Debug\GUI.exe
+D:\Nourallah\4th Computer\CI\Lab 4 - D2\3_GUI\GUI\bin\Debug\GUI.pdb
+D:\Nourallah\4th Computer\CI\Lab 4 - D2\3_GUI\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Nourallah\4th Computer\CI\Lab 4 - D2\3_GUI\GUI\obj\Debug\GUI.D2.resources
+D:\Nourallah\4th Computer\CI\Lab 4 - D2\3_GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Nourallah\4th Computer\CI\Lab 4 - D2\3_GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Nourallah\4th Computer\CI\Lab 4 - D2\3_GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Nourallah\4th Computer\CI\Lab 4 - D2\3_GUI\GUI\obj\Debug\GUI.exe
+D:\Nourallah\4th Computer\CI\Lab 4 - D2\3_GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\GUI.exe.config
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\obj\Debug\GUI.exe
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\obj\Debug\GUI.D2.resources
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\GUI.exe
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\GUI.pdb
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\LiveCharts.dll
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\LiveCharts.pdb
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\LiveCharts.xml
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\H.Shams\Desktop\#Lab Projects Solutions - D2\Lab 5 _ Logic Analyzer\3_GUI\GUI\bin\Debug\LiveCharts.Wpf.xml
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\GUI.exe.config
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\GUI.exe
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\GUI.pdb
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\LiveCharts.dll
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\LiveCharts.WinForms.dll
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\LiveCharts.Wpf.dll
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\LiveCharts.pdb
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\LiveCharts.xml
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\LiveCharts.WinForms.pdb
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\LiveCharts.WinForms.xml
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\LiveCharts.Wpf.pdb
+E:\Downloads\New folder\3_GUI\GUI\bin\Debug\LiveCharts.Wpf.xml
+E:\Downloads\New folder\3_GUI\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+E:\Downloads\New folder\3_GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+E:\Downloads\New folder\3_GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+E:\Downloads\New folder\3_GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+E:\Downloads\New folder\3_GUI\GUI\obj\Debug\GUI.exe
+E:\Downloads\New folder\3_GUI\GUI\obj\Debug\GUI.pdb
+E:\Downloads\New folder\3_GUI\GUI\obj\Debug\GUI.C6.resources
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\GUI.exe.config
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\GUI.exe
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\GUI.pdb
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\LiveCharts.dll
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\LiveCharts.WinForms.dll
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\LiveCharts.Wpf.dll
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\LiveCharts.pdb
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\LiveCharts.xml
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\LiveCharts.WinForms.pdb
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\LiveCharts.WinForms.xml
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\LiveCharts.Wpf.pdb
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\bin\Debug\LiveCharts.Wpf.xml
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\obj\Debug\GUI.C6.resources
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\obj\Debug\GUI.exe
+D:\Lectures\4th year\Computer Interface\Logic_Analyzer\New folder\3_GUI\GUI\obj\Debug\GUI.pdb
