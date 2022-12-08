@@ -1,0 +1,195 @@
+
+UART.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         0000012a  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  0000017e  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .comment      00000030  00000000  00000000  0000017e  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  000001b0  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000058  00000000  00000000  000001ec  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00000787  00000000  00000000  00000244  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 0000067f  00000000  00000000  000009cb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000386  00000000  00000000  0000104a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000084  00000000  00000000  000013d0  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    000003d5  00000000  00000000  00001454  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    000000ea  00000000  00000000  00001829  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000038  00000000  00000000  00001913  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   8:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  10:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  14:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  18:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  1c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  20:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  24:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  28:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  2c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  30:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  34:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  38:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  3c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  40:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  44:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  48:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  4c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  50:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d8 e0       	ldi	r29, 0x08	; 8
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+  60:	0e 94 36 00 	call	0x6c	; 0x6c <main>
+  64:	0c 94 93 00 	jmp	0x126	; 0x126 <_exit>
+
+00000068 <__bad_interrupt>:
+  68:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000006c <main>:
+#include "LED.h"
+
+int main(void)
+{   
+	char x;
+	DDRA=0x00;
+  6c:	1a ba       	out	0x1a, r1	; 26
+	x=0x00;
+	UART_vInit(9600);
+  6e:	60 e8       	ldi	r22, 0x80	; 128
+  70:	75 e2       	ldi	r23, 0x25	; 37
+  72:	80 e0       	ldi	r24, 0x00	; 0
+  74:	90 e0       	ldi	r25, 0x00	; 0
+  76:	0e 94 46 00 	call	0x8c	; 0x8c <UART_vInit>
+
+int main(void)
+{   
+	char x;
+	DDRA=0x00;
+	x=0x00;
+  7a:	c0 e0       	ldi	r28, 0x00	; 0
+	UART_vInit(9600);
+    while (1) 
+    {
+	  if(x!=PINA){
+  7c:	89 b3       	in	r24, 0x19	; 25
+  7e:	c8 17       	cp	r28, r24
+  80:	e9 f3       	breq	.-6      	; 0x7c <main+0x10>
+		 x=PINA;
+  82:	c9 b3       	in	r28, 0x19	; 25
+		UART_vSendData(x);
+  84:	8c 2f       	mov	r24, r28
+  86:	0e 94 6d 00 	call	0xda	; 0xda <UART_vSendData>
+  8a:	f8 cf       	rjmp	.-16     	; 0x7c <main+0x10>
+
+0000008c <UART_vInit>:
+  8c:	dc 01       	movw	r26, r24
+  8e:	cb 01       	movw	r24, r22
+  90:	88 0f       	add	r24, r24
+  92:	99 1f       	adc	r25, r25
+  94:	aa 1f       	adc	r26, r26
+  96:	bb 1f       	adc	r27, r27
+  98:	88 0f       	add	r24, r24
+  9a:	99 1f       	adc	r25, r25
+  9c:	aa 1f       	adc	r26, r26
+  9e:	bb 1f       	adc	r27, r27
+  a0:	9c 01       	movw	r18, r24
+  a2:	ad 01       	movw	r20, r26
+  a4:	22 0f       	add	r18, r18
+  a6:	33 1f       	adc	r19, r19
+  a8:	44 1f       	adc	r20, r20
+  aa:	55 1f       	adc	r21, r21
+  ac:	22 0f       	add	r18, r18
+  ae:	33 1f       	adc	r19, r19
+  b0:	44 1f       	adc	r20, r20
+  b2:	55 1f       	adc	r21, r21
+  b4:	60 e0       	ldi	r22, 0x00	; 0
+  b6:	72 e1       	ldi	r23, 0x12	; 18
+  b8:	8a e7       	ldi	r24, 0x7A	; 122
+  ba:	90 e0       	ldi	r25, 0x00	; 0
+  bc:	0e 94 71 00 	call	0xe2	; 0xe2 <__udivmodsi4>
+  c0:	21 50       	subi	r18, 0x01	; 1
+  c2:	31 09       	sbc	r19, r1
+  c4:	30 bd       	out	0x20, r19	; 32
+  c6:	29 b9       	out	0x09, r18	; 9
+  c8:	8a b1       	in	r24, 0x0a	; 10
+  ca:	88 60       	ori	r24, 0x08	; 8
+  cc:	8a b9       	out	0x0a, r24	; 10
+  ce:	8a b1       	in	r24, 0x0a	; 10
+  d0:	80 61       	ori	r24, 0x10	; 16
+  d2:	8a b9       	out	0x0a, r24	; 10
+  d4:	86 e8       	ldi	r24, 0x86	; 134
+  d6:	80 bd       	out	0x20, r24	; 32
+  d8:	08 95       	ret
+
+000000da <UART_vSendData>:
+  da:	5d 9b       	sbis	0x0b, 5	; 11
+  dc:	fe cf       	rjmp	.-4      	; 0xda <UART_vSendData>
+  de:	8c b9       	out	0x0c, r24	; 12
+  e0:	08 95       	ret
+
+000000e2 <__udivmodsi4>:
+  e2:	a1 e2       	ldi	r26, 0x21	; 33
+  e4:	1a 2e       	mov	r1, r26
+  e6:	aa 1b       	sub	r26, r26
+  e8:	bb 1b       	sub	r27, r27
+  ea:	fd 01       	movw	r30, r26
+  ec:	0d c0       	rjmp	.+26     	; 0x108 <__udivmodsi4_ep>
+
+000000ee <__udivmodsi4_loop>:
+  ee:	aa 1f       	adc	r26, r26
+  f0:	bb 1f       	adc	r27, r27
+  f2:	ee 1f       	adc	r30, r30
+  f4:	ff 1f       	adc	r31, r31
+  f6:	a2 17       	cp	r26, r18
+  f8:	b3 07       	cpc	r27, r19
+  fa:	e4 07       	cpc	r30, r20
+  fc:	f5 07       	cpc	r31, r21
+  fe:	20 f0       	brcs	.+8      	; 0x108 <__udivmodsi4_ep>
+ 100:	a2 1b       	sub	r26, r18
+ 102:	b3 0b       	sbc	r27, r19
+ 104:	e4 0b       	sbc	r30, r20
+ 106:	f5 0b       	sbc	r31, r21
+
+00000108 <__udivmodsi4_ep>:
+ 108:	66 1f       	adc	r22, r22
+ 10a:	77 1f       	adc	r23, r23
+ 10c:	88 1f       	adc	r24, r24
+ 10e:	99 1f       	adc	r25, r25
+ 110:	1a 94       	dec	r1
+ 112:	69 f7       	brne	.-38     	; 0xee <__udivmodsi4_loop>
+ 114:	60 95       	com	r22
+ 116:	70 95       	com	r23
+ 118:	80 95       	com	r24
+ 11a:	90 95       	com	r25
+ 11c:	9b 01       	movw	r18, r22
+ 11e:	ac 01       	movw	r20, r24
+ 120:	bd 01       	movw	r22, r26
+ 122:	cf 01       	movw	r24, r30
+ 124:	08 95       	ret
+
+00000126 <_exit>:
+ 126:	f8 94       	cli
+
+00000128 <__stop_program>:
+ 128:	ff cf       	rjmp	.-2      	; 0x128 <__stop_program>
